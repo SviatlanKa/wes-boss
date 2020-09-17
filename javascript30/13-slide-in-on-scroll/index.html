@@ -57,6 +57,7 @@
             if (callNow) func.apply(context, args);
         };
     }
+
     const images = document.querySelectorAll('.slide-in');
 
     function checkSlide(e) {
@@ -70,7 +71,7 @@
             } else {
                 image.classList.remove('active');
             }
-        })
+        });
     }
 
   window.addEventListener('scroll', debounce(checkSlide));
