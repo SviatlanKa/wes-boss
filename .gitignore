@@ -1,8 +1,9 @@
-# See https://help.gigit rm -r --cached .hub.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.gihub.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
 /javascript30/19-unreal-webcam-fun/node_modules
+/javascript30/20-native-speech-recognition/node_modules
 /.pnp
 .pnp.js
 
